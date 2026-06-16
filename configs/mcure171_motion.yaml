@@ -1,0 +1,19 @@
+dataset: mcure171
+protocol: motion_len15_5of5
+display_name: Motion-Support
+degradation:
+  type: motion
+  blur_radius: 4.0
+  motion_len: 15
+  support_only: true
+darc:
+  k: 3
+  alpha: 1.0
+  rho_min: 0.6
+  rho_max: 1.0
+  eta_min: 0.0
+  eta_max: 0.15
+  epsilon: 1.5
+  beta_candidates: [0.0, 0.05, 0.10, 0.15, 0.20]
+  reliability_policy: displacement_coherence
+

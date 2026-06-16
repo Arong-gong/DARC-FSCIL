@@ -1,0 +1,15 @@
+Protocol,Method,Overall Acc.,Old/Base Acc.,New/Inc. Acc.,HM
+Defocus-Support,CEC,70.012,96.963,38.986,55.612
+Defocus-Support,FACT,65.746,97.494,29.196,44.935
+Defocus-Support,TEEN,70.662,95.672,41.871,58.249
+Defocus-Support,SAVC,71.069,97.342,40.822,57.521
+Defocus-Support,LIMIT,70.012,96.963,38.986,55.612
+Defocus-Support,BiDistFSCIL,64.242,91.040,33.392,48.862
+Defocus-Support,DARC,72.897,94.989,47.465,63.300
+Motion-Support,CEC,76.270,96.963,52.448,68.074
+Motion-Support,FACT,73.710,97.267,46.591,63.003
+Motion-Support,TEEN,76.676,96.128,54.283,69.385
+Motion-Support,SAVC,78.302,97.418,56.294,71.355
+Motion-Support,LIMIT,76.270,96.963,52.448,68.074
+Motion-Support,BiDistFSCIL,69.768,93.622,42.308,58.279
+Motion-Support,DARC,79.236,95.444,60.577,74.115

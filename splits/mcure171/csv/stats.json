@@ -1,0 +1,41 @@
+{
+  "name": "mCURE_ge40_customer_topbottom",
+  "protocol": "split50_seed2021",
+  "source": "CURE/raw/Pill_Images via CURE/images normalized Customer JPG hardlinks",
+  "selection_rule": "keep classes with at least 40 Customer JPG images after merging top and bottom views",
+  "view_policy": "top and bottom Customer images are used together as samples of the same pill class",
+  "num_classes": 171,
+  "num_images": 7752,
+  "num_base_classes": 91,
+  "num_incremental_sessions": 8,
+  "num_incremental_classes_per_session": 10,
+  "class_id_policy": "new_class_id is contiguous 0..170; original_class_id preserves CURE raw class id",
+  "split_seed": 2021,
+  "split_policy": "per-class side-stratified 50/50 image split; train gets floor(n/2), test gets the remainder",
+  "base_train_images": 2053,
+  "incremental_support_images": 400,
+  "query_test_images": 3917,
+  "all_train_split_images": 3835,
+  "all_test_split_images": 3917,
+  "top_total": 3943,
+  "bottom_total": 3809,
+  "base_train_side_counts": {
+    "top": 1041,
+    "bottom": 1012
+  },
+  "support_side_counts": {
+    "top": 215,
+    "bottom": 185
+  },
+  "query_side_counts": {
+    "top": 1984,
+    "bottom": 1933
+  },
+  "base_train_query_overlap": 0,
+  "support_query_overlap": 0,
+  "train_test_overlap": 0,
+  "min_train_images_per_class": 20,
+  "max_train_images_per_class": 30,
+  "min_test_images_per_class": 20,
+  "max_test_images_per_class": 30
+}

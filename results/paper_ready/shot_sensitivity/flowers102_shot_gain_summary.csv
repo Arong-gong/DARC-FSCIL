@@ -1,0 +1,7 @@
+Dataset,Protocol,Family,Severity,Shot,DARC HM,CEC HM,Best non-DARC,Best non-DARC HM,Gain vs CEC,Gain vs Best
+Flowers102-FSCIL,Defocus-Support,Defocus,4.000,1,33.769,22.163,TEEN,38.070,11.606,-4.301
+Flowers102-FSCIL,Defocus-Support,Defocus,4.000,3,59.187,48.149,TEEN,52.744,11.038,6.443
+Flowers102-FSCIL,Defocus-Support,Defocus,4.000,5,63.300,55.612,TEEN,58.249,7.688,5.051
+Flowers102-FSCIL,Motion-Support,Motion,15.000,1,50.244,39.802,TEEN,51.829,10.442,-1.585
+Flowers102-FSCIL,Motion-Support,Motion,15.000,3,69.118,62.602,TEEN,66.099,6.516,3.019
+Flowers102-FSCIL,Motion-Support,Motion,15.000,5,74.115,68.074,SAVC,71.355,6.041,2.760

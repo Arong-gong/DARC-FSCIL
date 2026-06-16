@@ -1,0 +1,5 @@
+dataset,protocol,classifier_anchor_FHM,empirical_mean_anchor_FHM,classifier_minus_mean_FHM,protocol_tag
+mcure171,Defocus-Support,57.832054546589,57.832054546589,0.0,strict_loader_resolved_query_no_overlap
+mcure171,Motion-Support,60.35413900745139,60.35413900745139,0.0,strict_loader_resolved_query_no_overlap
+flowers102,Defocus-Support,63.29971695146242,63.29971695146242,0.0,flowers102_unchanged
+flowers102,Motion-Support,74.11452557101343,74.11452557101343,0.0,flowers102_unchanged
