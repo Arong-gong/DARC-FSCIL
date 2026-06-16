@@ -82,7 +82,7 @@ and adaptation notes are listed in [`docs/BASELINES.md`](docs/BASELINES.md).
 ```bibtex
 @article{darc2026,
   title   = {Adaptive Counterfactual Prototype Calibration for Degraded-Support Few-Shot Class-Incremental Learning},
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  journal = {Submited to IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2026},
   note    = {Manuscript under review}
 }
